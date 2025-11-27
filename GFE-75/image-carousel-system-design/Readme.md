@@ -4,25 +4,26 @@
 
 Design an image carousel component that displays a list of images one at a time, allowing the user to browse through them with pagination buttons.
 
-### [**How are the images specified?**](https://www.greatfrontend.com/interviews/study/gfe75/questions/system-design/image-carousel#how-are-the-images-specified)
+### **How are the images specified?**
 
 It will be a configuration option on the component and the list of images have to be specified before initializing the component.
 
-### [**What devices should the component support?**](https://www.greatfrontend.com/interviews/study/gfe75/questions/system-design/image-carousel#what-devices-should-the-component-support)
+### **What devices should the component support?**
 
 Desktop, tablet, and mobile.
 
-### [**How will the pagination buttons behave when the user is at the start/end of the image list?**](https://www.greatfrontend.com/interviews/study/gfe75/questions/system-design/image-carousel#how-will-the-pagination-buttons-behave-when-the-user-is-at-the-startend-of-the-image-list)
+### **How will the pagination buttons behave when the user is at the start/end of the image list?**
 
 It should cycle through infinitely.
 
-### [**Will there be animation when transitioning between images?**](https://www.greatfrontend.com/interviews/study/gfe75/questions/system-design/image-carousel#will-there-be-animation-when-transitioning-between-images)
+### **Will there be animation when transitioning between images?**
 
 Yes the images should animate with horizontal translation.
 
 ## Solution
 
-![image.png](attachment:21d437d5-11cb-432c-b0b6-86f2c6b35c0e:image.png)
+<img width="894" height="655" alt="image" src="https://github.com/user-attachments/assets/e839f368-ad79-4b48-a38d-eff2621ba83d" />
+
 
 Manejamos multiples partes en nuestra solucion:
 
