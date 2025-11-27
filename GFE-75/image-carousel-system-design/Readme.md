@@ -92,7 +92,7 @@ Una practica interesante es que estas APIs internas pueden ser implementadas com
 
 Aqui tenemos que decidir y dibujar como sera el layout en nuestro caso sera un layout horizontal con un scroll offset de 600px aprox.
 
-![image.png](attachment:4aa8a978-fa54-4dbf-9633-59ae2522d2b5:image.png)
+<img width="1267" height="477" alt="image" src="https://github.com/user-attachments/assets/34ea349d-69c1-48b2-adc7-b27d43b7a6a8" />
 
 Aqui pese a que luce simple no lo es tanto, debemos tener en cuenta que pueden surgir problematicas repentinas como por ejemplo que las imagenes tengan diferentes sizes, y esto tiene un work-around, mediante CSS nosotros podemos en lugar de usar la etiqueta img dar uso a la proprty background-image permitiendonos moldear la imagen con contain o cover.
 
